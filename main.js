@@ -3,7 +3,9 @@ const addBtn = document.getElementById('push');
 const tasksList = document.getElementById('tasks');
 const resultsContainer = document.getElementById('results');
 
+const theBest = 'ronaldo'
 function addTask() {
+
   const taskText = inputTask.value.trim();
   if (taskText === '') return;
 
@@ -55,7 +57,7 @@ setInterval ( swapListItems,1000)
 //   let colorInput = document.getElementById("colorInput");
 //   let newBackgroundColor = colorInput.value;
 
-//   targetElement.style.backgroundColor = newBackgroundColor;
+//   targetElement.style.backgroundColor = ;
 // }
 // let button = document.getElementById("changeBackgroundButton");
 // button.addEventListener("click", changeBackground);
